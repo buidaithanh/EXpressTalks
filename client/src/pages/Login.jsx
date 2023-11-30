@@ -67,14 +67,14 @@ function Login() {
           </div>
           <input
             type="text"
-            placeholder="UserName"
+            placeholder="daithanh01"
             name="username"
             onChange={(e) => handleChange(e)}
           />
 
           <input
             type="password"
-            placeholder="Password"
+            placeholder="12345678"
             name="password"
             onChange={(e) => handleChange(e)}
           />
@@ -98,7 +98,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: #0a3d62;
   .brand {
     display: flex;
     align-items: center;
